@@ -1,0 +1,2 @@
+export PS1='[\[\e[36;1m\]\u@\[\e[32;1m\]\h \[\e[34;1m\]\w]# \[\e[0m\]'
+PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}"; echo -ne "\007"'
